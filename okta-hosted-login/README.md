@@ -1,4 +1,5 @@
 # Express & Okta-Hosted Login Page Example
+# Extended with Tableau Embedded Analytics & OKTA acting as the Oauth 2.0 EAS (External Authorization Server)
 
 This example shows you how to use the [OIDC Middleware Library][] to login a user.  The login is achieved through the [Authorization Code Flow], where the user is redirected to the Okta-Hosted login page.  After the user authenticates, they are redirected back to the application and a local cookie session is created using [express-session][].
 
@@ -32,7 +33,7 @@ Now you need to gather the following information from the Okta Developer Console
 
 - **Client ID** and **Client Secret** - This can be found on the "General" tab of an application, you want to get this for the Web application that you created earlier.
 
-- **Issuer** - This is the URL of the authorization server that will perform authentication.  All Developer Accounts have a "default" authorization server.  The issuer is a combination of your Org URL (found in the upper right of the console home page) and `/oauth2/default`. For example, `https://dev-1234.okta.com/oauth2/default`.
+- **Issuer** - This is the URL of the authorization server that will perform authentication.  All Developer Accounts have a "default" authorization server.  The issuer is a combination of your Org URL (found in the upper right of the console home page) and `/oauth2/default`. For example, `https://dev-1234.okta.com/oauth2/default`. But in our case we want to use a purpose-built authorization server for Tableau Server, where audience (aud)=`tableau` and the scopes include e.g. ```tableau:views:embed``` and ```tableau:metrics:embed```.
 
 These values must exist as environment variables. They can be exported in the shell, or saved in a file named `testenv`, at the root of this repository. (This is the parent directory, relative to this README) See [dotenv](https://www.npmjs.com/package/dotenv) for more details on this file format.
 
