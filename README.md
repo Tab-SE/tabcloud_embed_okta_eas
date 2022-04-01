@@ -1,6 +1,6 @@
-# Express & Okta-Hosted Login Page Example, extended with Tableau Embedded Analytics & OKTA acting as the Oauth 2.0 EAS (External Authorization Server)
+# tableau_embed_okta_eas
 
-Sample Tableau Embedded Analytics app to test the integration with OKTA acting as an OAUTH 2.0 Authorization provider for Tableau Server.
+Sample Tableau Embedded Analytics app to test the integration with OKTA acting as an OAUTH 2.0 EAS (External Authorization Server) for Tableau Server.
 
 To learn how to configure and use this app, see [this] blog post.
 
