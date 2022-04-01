@@ -1,3 +1,6 @@
+# env variable
+testenv
+
 # Logs
 logs
 *.log
