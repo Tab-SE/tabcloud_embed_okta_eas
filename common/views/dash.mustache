@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     {{>head}}
-    <script type="module" src="https://10ax.online.tableau.com/javascripts/api/tableau.embedding.3.latest.js"></script>
+    <script type="module" src="https://dub01.online.tableau.com/javascripts/api/tableau.embedding.3.latest.js"></script>
   </head>
   <body id="samples">
 
@@ -22,8 +22,6 @@
         </div>            
         
         <tableau-viz id="tableauViz" src="{{viz_url}}"
-          height="100%"
-          width="100%"
           toolbar="hidden" hide-tabs
           token="{{access_token}}" > 
         </tableau-viz>
