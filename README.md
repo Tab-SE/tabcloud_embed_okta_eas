@@ -6,7 +6,7 @@ To learn how to configure and use this app, see [this] blog post.
 
 [this]: https://medium.com/@alexeskinasy/configuring-okta-as-an-external-authorization-server-to-enable-sso-for-tableau-embedded-analytics-9be078ebd1fa
 
-Quick demo (no audio): 
+Quick demo video (CLICK TO PLAY - no audio): 
 
 [![Watch the video](https://img.youtube.com/vi/yS8ESuEHTQk/maxresdefault.jpg)](https://youtu.be/yS8ESuEHTQk)
 
