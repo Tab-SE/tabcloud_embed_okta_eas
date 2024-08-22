@@ -12,15 +12,20 @@
 
 /* General ********************************************************************/
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
-a:link, a:visited, a:active {
+a:link,
+a:visited,
+a:active {
   color: #4183C4;
 }
 
-#samples, #samples .ui.menu, #samples .ui.table {
+#samples,
+#samples .ui.menu,
+#samples .ui.table {
   font-size: 15px;
 }
 
@@ -34,12 +39,13 @@ a:link, a:visited, a:active {
 .menu button:hover {
   color: #fff !important;
 }
+
 /* Getting Started ************************************************************/
 
 #getting-started {
   margin-bottom: 70px;
   font-weight: bold;
-  color:#000 !important;
+  color: #000 !important;
   padding-top: 12px;
   padding-bottom: 14px;
 }
